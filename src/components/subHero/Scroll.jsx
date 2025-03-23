@@ -14,7 +14,7 @@ const logos = [
 
 const Scroll = () => {
   return (
-    <div className="w-full overflow-x-auto flex justify-between  space-x-6 px-4 py-2 scrollbar-hide">
+    <div className="w-full lg:overflow-x-auto  overflow-x-hidden flex justify-between  space-x-6 px-4 py-2 scrollbar-hide">
       {logos.map((item, index) => (
         <div
           key={index}

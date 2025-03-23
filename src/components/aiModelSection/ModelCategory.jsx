@@ -54,7 +54,7 @@ const ModelCategory = () => {
     <div className="flex flex-col items-center w-full px-6
      pb-32 mt-16">
       {/* Buttons */}
-      <div className="flex space-x-4 mb-6 border border-gray-200 rounded-lg py-1">
+      <div className="flex space-x-4 mb-6 border whitespace-nowrap border-gray-200 rounded-lg py-1">
         {cards.map((card) => (
           <button
             key={card.id}
